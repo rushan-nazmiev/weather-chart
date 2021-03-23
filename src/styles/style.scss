@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: Serif;
+    h1{
+        margin: 50px auto;
+    }
+    .wrapper{
+        position: relative;
+        margin: auto;
+        &__canvas{
+            margin: auto;
+        }
+        &__slidecontainer{
+            padding-left: 25px;
+            input{
+                width: 100%;
+                transform: rotate(0.5turn);
+            }
+        }
+    }
+}
